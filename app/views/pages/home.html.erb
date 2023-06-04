@@ -1,2 +1,66 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://mecaluxcl.cdnwm.com/documents/20128/495656/M14P4+La+reposici%C3%B3n+de+stock+debe+organizarse+de+manera+que+las+estanter%C3%ADas+de+picking+contengan+los+productos+necesarios.jpg/755db48f-1746-6a9e-2b2e-5b912eacf8ed?t=1641976145000&e=jpg);">
+  <div class="container">
+    <div class="">
+      <h1>Abraza el futuro de la logística con OptiFlow+</h1>
+      <p>Con OptiFlow+, la grandeza no es solo un destino, es el camino.</p>
+      <a class="btn btn-gradient" href="https://www.instagram.com/optiflowplus/" target="_blank">Unete!</a>
+    </div>
+  </div>
+</div>
+<div class="container mt-5 mb-3">
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "optiflow.jpg" %>)"></div>
+</div>
+
+<div class="container mb-3 w-50">
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png", class:"d-block w-100" %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "diagramaflujo.png", class:"d-block w-100" %>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="accordion mt-3" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Nosotros
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Somos estudiantes de Ingenieria en Automatizacion y Control Industrial, enamorados con la innovacion y el emprendimiento.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Objetivo
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <p>Tenemos claro que nada es imposible, queremos aumentar la innovacion en los jovenes demostrando que desde regiones tambien se puede llegar lejos.
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
